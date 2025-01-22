@@ -11,9 +11,9 @@ import NavBar from "./Components/NavBar.jsx";
 
 export default function App() {
     return (
-        <main className="Relative">
+        <main className="relative">
             <NavBar/>
-            <section className='padding-l wide:padding-r padding-b '>
+            <section className='xl:padding-l wide:padding-r padding-b'>
                 <HeroSection />
             </section>
             <section className='padding'>

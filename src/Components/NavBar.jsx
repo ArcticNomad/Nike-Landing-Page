@@ -4,7 +4,7 @@ import {hamburger} from "../assets/icons/index.js";
 
 export default function NavBar(){
     return (
-        <header className='absolute w-full padding-x py-7'>
+        <header className='absolute w-full padding-x py-7 z-10'>
             <nav className='flex justify-between items-center max-container '>
                 <a href={headerLogo}>
                 <img src={headerLogo} alt="logo"/>
