@@ -9,8 +9,8 @@ export default function SuperQuality(){
             <div className="w-full flex flex-col max-lg:justify-center max-lg:items-center">
 
                 <h2 className="text-4xl font-bold font-palanquin lg:max-w-lg flex-col max-lg:justify-center max-lg:items-center max-lg:mt-20 max-lg:mb-7">
-                    We Provide   You <span className="text-coral-red max-lg:flex max-lg:justify-center mr-3 max-lg:items-center">Super Quality</span> 
-                    <span className="max-lg:justify-center max-lg:items-center max-lg:flex">Shoes</span>
+                    We Provide   You <span className="text-coral-red max-lg:flex  sm:justify-center mr-3 max-lg:items-center">Super Quality</span> 
+                    <span className=" max-sm:justify-start max-lg:justify-center max-lg:items-center max-lg:flex">Shoes</span>
                 </h2>
 
                 <p className="mt-4 info-text lg:max-w-lg">
