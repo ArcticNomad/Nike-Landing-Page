@@ -55,4 +55,35 @@
     .info-text {
         @apply font-montserrat text-slate-gray text-lg leading-7;
     }
+
+    .button-hover:hover{
+        @apply bg-orange-500 text-white scale-110 shadow-2xl border-none transition-transform duration-75 ease-in-out
+    }
+    .shoe-card:hover{
+        @apply transition-transform scale-110 shadow-2xl ;
+    }   
+    .popular-card:hover{
+        @apply transition-transform scale-105 shadow-2xl ;
+        animation: borderAnimation 3s infinite;
+    }
+
 }
+
+@keyframes borderAnimation {
+    0% {
+      border-color: coral;
+    }
+    25% {
+      border-color: white;
+    }
+    50% {
+      border-color: coral;
+    }
+    75% {
+      border-color: white;
+    }
+    100% {
+      border-color: coral;
+    }
+  }
+  
