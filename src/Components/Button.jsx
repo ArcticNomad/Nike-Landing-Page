@@ -8,7 +8,7 @@ export default function Button({label, iconURL, backgroundColor,textColor, borde
                     ? `${backgroundColor} ${textColor} ${borderColor}`
                     : "bg-coral-red text-white border-coral-red"
 
-            } ${fullWidth && "w-full"}`}
+            } rounded-full ${fullWidth && "w-full"}`}
 
         >
             {label}

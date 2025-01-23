@@ -31,10 +31,10 @@ export default function App() {
             <section className='padding bg-pale-blue'>
                 <CustomerReviews/>
             </section>
-            <section className='padding'>
+            <section className='padding-x sm:py-32 py-16'>
                 <Subscribe/>
             </section>
-            <section className='padding-x pb-20 padding-t bg-black '>
+            <section className='padding-x pb-8 padding-t bg-black '>
                 <Footer/>
             </section>
         </main>
