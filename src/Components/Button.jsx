@@ -12,7 +12,9 @@ export default function Button({label, iconURL, backgroundColor,textColor, borde
 
         >
             {label}
-            <img src={iconURL} alt="icon"/>
+            {iconURL &&(
+                <img src={iconURL} alt="icon"/>
+            )}
         </button>
     )
 }
